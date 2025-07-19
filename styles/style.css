@@ -1,0 +1,59 @@
+
+
+
+/* shared styles */
+body{
+    max-width: 1140px;
+    margin: o auto;
+}
+.btn-primary{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+
+/* header styles */
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+.links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+   
+}
+.links li a{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.heading-right{
+    background-image: url("../images/Circle\ design.svg");
+   background-repeat: no-repeat;
+   width: 475px;
+   height: 475px;
+}
+.heading-right img{
+    width: 440px;
+    height: 414px;
+}
+.resources{
+    height: 110px;
+    width: 1110px;
+    margin: 0 100px;
+    border: 2px solid black;
+}
+.resources img{
+    margin-right: 31px;
+}
+
