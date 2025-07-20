@@ -57,3 +57,22 @@ body{
     margin-right: 31px;
 }
 
+/* collection styles */
+.col-title{
+    text-align: center;
+    border: 1px solid teal;
+}
+.col-item{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+}
+.item{
+    border:1px solid blueviolet;
+    background-color: #FFFFFF;
+    width: 329px;
+    height: 436px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+}
